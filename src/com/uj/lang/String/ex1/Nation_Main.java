@@ -8,8 +8,7 @@ public class Nation_Main {
 		NationOut out = new NationOut();
 		Nation [] nation = data.makeNation();
 		/*out.Out1(nation);*/
-		NationMenu menu = new NationMenu();
-		menu.start();
+		new NationMenu().start();
 
 	}
 
